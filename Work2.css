@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+    font-family:Heebo;
+    }
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    background: #000;
+    margin:0;
+    padding:0;
+}
+.container{
+    position: relative;
+    width: 375px;
+    height: 1637px;
+    background: #fff;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-inline: 20px;
+}
+i{
+    font-size:30px;
+}
+.nav{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 375px;
+    height: 100vh;
+    background: #123456;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.white-icon{
+    color: #fff;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.work{
+    margin-top: 32px;
+    width: 339px;
+    height: 80px;
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+.bb{
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.mb{
+    display: flex;
+    gap: 26px;
+}
+.it{
+    display: block;
+}
+.txt1{
+    width: 262px;
+    height: 52px;
+}
+.t{
+    margin-top:-48px;
+    margin-left: 10px;
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 42px;
+    height: 25px;
+}
+.txt2{
+    width: 339px;
+    height: 96px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+}
+.heading1{
+    width: 119px;
+    height: 60px;
+    font-family: Heebo;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+}
+.heading2{
+    width: 92px;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+    margin-top: -40px;
+}
+.txt3{
+    width: 339px;
+    height: 96px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    margin-top: -20px;
+}
+.footer{
+    width: 375px;
+    height: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.brandbox{
+    height: 100%;
+    display: flex;
+    gap:35px;
+    margin-top:51px;
+}
+#face{
+    width: 30px;
+    height: 30px;
+    border-radius:5px;
+}
+#inst{
+    width: 30px;
+    height: 30px;
+}
+#twitter{
+    width: 33px;
+    height: 33px;
+    margin-bottom:2px;
+}
+#ll{
+    width: 30px;
+    height: 30px;
+}
+.c{
+    width: 222px;
+    height: 21px;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+    text-align: center;
+    margin-bottom:53px;
+}
