@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+    font-family:Heebo;
+    }
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    background: #000;
+    margin:0;
+    padding:0;
+    }
+.container{
+    position: relative;
+    width: 375px;
+    height: 1261px;
+    background: #fff;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-inline: 20px;
+}
+i{
+    font-size:30px;
+}
+.nav{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 375px;
+    height: 100vh;
+    background: #123456;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.white-icon{
+    color: #fff;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.blog{
+    width: 62px;
+    height: 60px;
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    margin: 0 0 0 18px;
+}
+.component{
+    font-family: Heebo;
+    width: 339px;
+    height: 870px;
+    margin: 0 0 0 18px;
+}
+.box1{
+    width: 339px;
+    height: 204px;
+
+}
+.btxt1{
+    width: 327px;
+    height: 60px;
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-top:18px;
+}
+.btxt2{
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    margin-top: -22px;
+}
+.bb{
+    width: 328px;
+}
+.btxt3{
+    width: 339px;
+    height: 96px;
+    margin-top: 17px;
+}
+#vector{
+    margin-top: 24px;
+}
+.footer{
+    margin-top:87px;
+    width: 375px;
+    height: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.brandbox{
+    height: 100%;
+    display: flex;
+    gap:35px;
+    margin-top:51px;
+}
+#face{
+    width: 30px;
+    height: 30px;
+    border-radius:5px;
+}
+#inst{
+    width: 30px;
+    height: 30px;
+}
+#twitter{
+    width: 33px;
+    height: 33px;
+    margin-bottom:2px;
+}
+#ll{
+    width: 30px;
+    height: 30px;
+}
+.c{
+    width: 222px;
+    height: 21px;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+    text-align: center;
+    margin-bottom:53px;
+}
